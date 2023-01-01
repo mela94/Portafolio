@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/head') %>
+</head>
+<body>
+
+    <%- include('partials/navigation') %>
+    <h1 class="text-center p-4">Curriculum Vitae</h1>
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="card" style="width: 40rem;">
+  <img src="/img/curriculum.jpg" class="card-img-top" alt="CV">
+  <div class="card-body text-center align-items-center>
+    <h5 class="card-title"><a download="Curriculum-Franco-Melazo" href="/files/Franco-ruben-melazo.pdf" class="btn btn-danger btn-block ">Descargar CV</a></h5>
+    <a href="/proyectos" class="btn btn-primary w-25">Proyectos</a>
+  </div>
+</div>
+    </div>
+
+    <footer>
+<%- include('partials/footer') %>
+    </footer>
+    
+</body>
+</html>

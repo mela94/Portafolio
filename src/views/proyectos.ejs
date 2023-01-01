@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <%- include('partials/head') %>
+  </head>
+  <body>
+    <header>
+    <nav>
+<%- include('partials/navigation') %>
+    </nav>
+    </header>
+    
+<div class="row">
+  <div class="col-sm-6 mb-4 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-dark">Juego Piedra Papel o Tijera</h5>
+        <p class="card-text text-dark">Juego de piedra, papel o tijera realizado con html, css y javascript.</p>
+        <a href="https://github.com/mela94/PiedraPapelTijera" target="_blank" class="btn btn-primary">Ver</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-5">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-dark">Cubo 3D</h5>
+        <p class="card-text text-dark">Cubo 3D realizado con  html, css y javascript. Se realizaron trancisiones y transformaciones.</p>
+        <a href="https://github.com/mela94/Cubo-3D/blob/main/clase08-cubo.html" target="_blank" class="btn btn-primary">Ver</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-dark">Pagina Web</h5>
+        <p class="card-text text-dark">Pagina realizada con Html, Css, Javascript y Node Js</p>
+        <a href="https://github.com/mela94/Primer-pagina-con-Node-Express" target="_blank" class="btn btn-primary">Ver</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-dark">Pagina Web De Emprendimiento</h5>
+        <p class="card-text text-dark text-dark">Pagina Web realizada para emprendimiento con Wordpress y demas extenciones.</p>
+        <a href="https://360impre3d.com.ar/" target="_blank" class="btn btn-primary">Ver</a>
+      </div>
+    </div>
+  </div>
+    <main
+      class="container pt-2 text-center d-flex justify-content-center align-items-center">
+      
+    <%- include('partials/footer') %>
+  </body>
+</html>
