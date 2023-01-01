@@ -8,6 +8,6 @@ router.get('/about', (req, res) => res.render('about', { title: 'Sobre mi'}) )
 
 router.get('/curriculum', (req, res) => res.render('curriculum', {title: 'Curriculum'}))
 
-router.get('/Proyectos', (req, res) => res.render('Proyectos', {title: 'Proyectos'}))
+router.get('/proyectos', (req, res) => res.render('proyectos', {title: 'Proyectos'}))
 
 export default router
